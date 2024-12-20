@@ -1,0 +1,10 @@
+label{
+    color: aquamarine;
+}
+#name{
+    color: blue;
+} /*this is the id of the input field*/
+
+.content{
+    color:hotpink;
+}/*this is the class of content/

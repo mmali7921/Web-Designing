@@ -1,0 +1,47 @@
+.outerbox{
+    width: 700px;
+    height: 300px;
+    background-color: red;
+    border: 3px solid black; /*this is the border of the element*/
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color:red;
+    font-size: 50px;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    float: left; /*this is the float of the element*/
+    margin: 10px; /*this is the margin of the element*/
+    background-color: red;
+    border: 3px solid black; /*this is the border of the element*/
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    float: left; /*this is the float of the element*/
+    margin: 10px; /*this is the margin of the element*/
+
+    background-color: green;
+    border: 3px solid black; /*this is the border of the element*/
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    float: left; /*this is the float of the element*/
+    margin: 10px; /*this is the margin of the element*/
+
+    background-color: blue;
+    border: 3px solid black; /*this is the border of the element*/
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    float: left; /*this is the float of the element*/
+    margin: 10px; /*this is the margin of the element*/
+
+    background-color: yellow;
+    border: 3px solid black; /*this is the border of the element*/
+}

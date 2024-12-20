@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="style.css" type="text/css" rel="stylesheet"><!--external css-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        p {
+            color: blue;
+        }
+    </style><!--internal css-->
 </head>
 <body>
+    <h1 style="color: red;">This is a form</h1><!--inline css-->
+    <p>Fill out this form</p>
     <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name"> <!--id is unique to the element-->
         <br>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email">
@@ -18,8 +26,7 @@
         <input type="radio">
         <label>Male</label>
         <input type="radio">
-        <label>Female</label>
-        <br>
+        <label class="content">Female</label><!--class is  not unique to the element-->
         <label for="country">Country:</label>
         <select id="country" name="country">
             <option value="india">India</option>
@@ -28,7 +35,7 @@
         </select>
 
         <br>
-        <label for="message">Message:</label>
+        <label class="content" for="message">Message:</label><!--class is  not unique to the element-->
         <textarea id="message" name="message"></textarea>
         <br>
         <label>skill</label>
@@ -39,8 +46,11 @@
         <input type="checkbox">
         <label>JS</label>
         <br>
-
+        <input type="submit" value="Submit">
+        
+        <button>next form</button>
 
     </form>
+
 </body>
 </html>

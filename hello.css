@@ -1,0 +1,18 @@
+.outerbox{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    margin-left: 10px;/*this is the margin from the left*/
+    margin-top: 10px; /*this is the margin from the top element(link to hello 2)*/
+    padding-left: 50px; /*this is the padding of the element inside div*/
+    border: 3px solid black; /*this is the border of the element*/
+}
+.white{
+    color: white;
+}/*class white*/
+.innerbox{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border: 3px solid black;
+}
