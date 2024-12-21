@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+   
+}
+body{
+    display: flex; /* flexbox */
+    border: 3px solid black;
+    /*justify-content: space-evenly; /*  horizontally */
+    align-items: center;/* vertically on cross axis of every flex box line individually*/
+    align-content: center;/* vertically on cross axis of all flex box lines */
+    min-height: 300px;
+   /*flex-direction: column; ,flex-direction: row-reverse; */
+
+    flex-wrap: wrap;
+    gap: 10px /* gap between flex items */
+    /*row-gap: 10px; column-gap: 10px; */
+
+    /*flex-shrink: 1; flex-grow: 1;  */
+
+
+
+    
+}
